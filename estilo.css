@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+box-sizing: border-box;
+}
+
+body{
+  
+    font-family: Poppins;
+}
+
+.full{
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    
+    width: 82.93%;
+    margin-bottom: 21%;
+    margin-top: 20%;
+}
+
+header p{
+    font-size: 0.938rem;
+    color: hsl(229, 6%, 66%);
+    
+}
+
+main{
+    gap: 1.7rem;
+    height: 100%;
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 21%;
+    
+}
+
+.inicio{
+    margin-bottom: 0;
+}
+
+
+header h2{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    margin-top: 0.1rem;
+    
+}
+
+section{
+    
+    width: 82.93%;
+    background: linear-gradient(to bottom, blue 0% 2.7%, rgb(255, 255, 255) 2.7% 100%);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(72, 150, 180, 0.2),
+    0px 15px 30px rgba(72, 150, 180, 0.10);
+}
+#calculator{
+    background: linear-gradient(to bottom, hsl(212, 86%, 64%) 0% 2%, white 2% 100%);
+}
+#supervisor{
+    background: linear-gradient(to bottom, hsl(180, 62%, 55%) 0% 2%, white 2% 100%);
+}
+#teambuilder{
+    background: linear-gradient(to bottom, hsl(0, 78%, 62%) 0% 2%, white 2% 100%);
+}
+#karma{
+    background: linear-gradient(to bottom, hsl(34, 97%, 64%) 0% 2%, white 2% 100%);
+}
+
+section h2{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-left: 10%;
+    margin-top: 10%;
+    
+}
+
+section p{
+    font-size: 0.813rem;
+    margin-left: 10%;
+    margin-top: 1%;
+    color: hsl(229, 6%, 66%);
+    
+}
+
+.container-img{
+    width: 3.563rem;
+    margin-right: 1.8rem;
+    
+    
+}
+.img{
+    text-align: right;
+    margin-top: 2rem;
+    margin-bottom: 7%;
+}
+
+#karma p{
+    margin-right: 2rem;
+}
+
+#calculator p{
+    margin-right: 2rem;
+}
+
+@media (min-width:1000px){
+    .full{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    header{
+        margin-top: 4.45%;
+        width: 37.5%;
+        min-width: 443px;
+        margin-bottom: 9%;
+    }
+    header h2{
+        font-size: 2.25rem;
+    }
+
+    header p{
+        text-align: center;
+        width: 100%;
+    }
+    main{
+        margin-top: 0;
+        display: grid;
+        width: 77.1%;
+        margin-bottom: 1%;
+        grid-template-columns: repeat(3, 350px);
+        grid-template-rows: repeat(4, 115px);
+        place-content: center;
+
+    }
+
+    #supervisor{
+        grid-row: 2 / 3;
+        grid-column: 1;
+        
+    }
+    #supervisor p{
+        margin-right: 2rem;
+    }
+    
+
+    #teambuilder{
+        grid-column: 2;
+        grid-row: 1 / 2;
+    }
+    #teambuilder p{
+        margin-right: 1rem;
+    }
+
+    #karma{
+        grid-column: 2;
+        grid-row: 3 / 4;
+    }
+    #calculator{
+        grid-column: 3;
+        grid-row: 2 / 3;
+    }
+
+    section{
+        margin: 0;
+        width: 100%;
+        height: 250px;
+        
+    }
+
+    .img{
+        height: 50%;
+    }
+
+    .container-img{
+        margin-top: 1.4rem;
+    }
+}
