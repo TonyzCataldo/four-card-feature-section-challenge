@@ -126,11 +126,11 @@ section p{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+        
     }
     
     header{
-        margin-top: 4%;
+        margin-top: 2.5%;
         width: 37.5%;
         min-width: 443px;
         margin-bottom: 9%;
@@ -154,7 +154,7 @@ section p{
         width: 77.1%;
         margin-bottom: 1%;
         grid-template-columns: repeat(3, 350px);
-        grid-template-rows: repeat(4, 110px);
+        grid-template-rows: repeat(4, 100px);
         place-content: center;
 
     }
@@ -198,6 +198,6 @@ section p{
     }
 
     .container-img{
-        margin-top: 1.4rem;
+        margin-top: 1.9rem;
     }
 }
