@@ -122,6 +122,10 @@ section p{
 }
 
 @media (min-width:1000px){
+    body{
+        background-color: hsl(0, 0%, 98%);
+    }
+    
     .full{
         display: flex;
         align-items: center;
