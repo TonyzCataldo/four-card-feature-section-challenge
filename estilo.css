@@ -126,15 +126,15 @@ section p{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 922px;
+        height: auto;
         
     }
     
     header{
-        margin-top: 7%;
+        margin-top: 6%;
         width: 37.5%;
         min-width: 443px;
-        margin-bottom: 9%;
+        margin-bottom: 12%;
     }
     header h2{
         font-size: 2.25rem;
@@ -147,7 +147,7 @@ section p{
         color: hsl(234, 12%, 34%);
         font-size: 0.938rem;
         font-weight: 400;
-        line-height: 25px;
+        line-height: 22px;
         
         
     }
@@ -157,7 +157,7 @@ section p{
         width: 77.1%;
         margin-bottom: 1%;
         grid-template-columns: repeat(3, 350px);
-        grid-template-rows: repeat(4, 111px);
+        grid-template-rows: repeat(4, 100px);
         place-content: center;
 
     }
@@ -175,6 +175,7 @@ section p{
     #teambuilder{
         grid-column: 2;
         grid-row: 1 / 2;
+        margin-bottom: 50px;
     }
     #teambuilder p{
         margin-right: 1rem;
