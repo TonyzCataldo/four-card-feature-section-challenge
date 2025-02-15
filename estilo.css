@@ -126,6 +126,7 @@ section p{
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 922px;
         
     }
     
@@ -200,10 +201,13 @@ section p{
     }
 
     .container-img{
-        width: 60px;
+        width: 65px;
         margin-top: 0.6rem;
     }
     .container p{
-        color: hsl(229, 6%, 66%);
+        color: hsl(234, 12%, 34%);
+    }
+    .reliable{
+        margin-bottom: -5px;
     }
 }
