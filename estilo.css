@@ -131,7 +131,7 @@ section p{
     }
     
     header{
-        margin-top: 8%;
+        margin-top: 7%;
         width: 37.5%;
         min-width: 443px;
         margin-bottom: 9%;
@@ -157,7 +157,7 @@ section p{
         width: 77.1%;
         margin-bottom: 1%;
         grid-template-columns: repeat(3, 350px);
-        grid-template-rows: repeat(4, 105px);
+        grid-template-rows: repeat(4, 111px);
         place-content: center;
 
     }
