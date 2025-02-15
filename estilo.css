@@ -131,7 +131,7 @@ section p{
     }
     
     header{
-        margin-top: 7%;
+        margin-top: 8%;
         width: 37.5%;
         min-width: 443px;
         margin-bottom: 9%;
@@ -157,7 +157,7 @@ section p{
         width: 77.1%;
         margin-bottom: 1%;
         grid-template-columns: repeat(3, 350px);
-        grid-template-rows: repeat(4, 111px);
+        grid-template-rows: repeat(4, 105px);
         place-content: center;
 
     }
@@ -207,7 +207,7 @@ section p{
     .container p{
         color: hsl(234, 12%, 34%);
         font-weight: 400;
-        opacity: 0.5;
+       
     }
     .reliable{
         margin-bottom: -5px;
